@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
+	tea "github.com/charmbracelet/bubbletea"
 	"github.com/superstarryeyes/bit/ansifonts"
 	"github.com/superstarryeyes/bit/internal/ui"
-	tea "github.com/charmbracelet/bubbletea"
 )
 
 func main() {
@@ -86,7 +86,7 @@ func main() {
 	// Show version
 	if version {
 		fmt.Println("Bit - Terminal ANSI Logo Designer & Font Library")
-		fmt.Println("Version: 0.2.0")
+		fmt.Println("Version: 0.3.0")
 		fmt.Println("https://github.com/superstarryeyes/bit")
 		return
 	}
